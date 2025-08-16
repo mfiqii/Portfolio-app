@@ -4,7 +4,7 @@ import streamlit as st
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 
 with col1:
-    st.image("/workspaces/Portfolio-app/assets/Linkedin_Photo.png", width=230)
+    st.image("assets/Linkedin_Photo.png", width=230)
 
 with col2:
     st.title("Mochamad Fiqi Sabila", anchor=False)
