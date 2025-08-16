@@ -7,7 +7,7 @@ st.write("A/B Testing 🧪")
 
 
 # ---------- Upload File ---------- #
-file_path = "/workspaces/Portfolio-app/assets/df_2023_agg.csv" 
+file_path = "assets/df_2023_agg.csv" 
 
 try:
     df = pd.read_csv(file_path)
